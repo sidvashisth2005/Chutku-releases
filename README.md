@@ -1,102 +1,114 @@
-# Chutku
+# Chutku: your voice assistant for Windows
 
-**A free voice assistant for your Windows PC**, designed and developed by **Siddhant Vashisth**. Say what you want in English, Hindi or Hinglish, and Chutku does it
-for you, then tells you honestly what happened.
+**Chutku does things on your PC when you ask.** Say or type what you want in English, Hindi or Hinglish, and she
+does it: open apps, find files, play music, change settings, install apps, set reminders, and much more.
 
+Designed and developed by **Siddhant Vashisth**. Free.
+
+> **Only for Windows 10 and 11 (64-bit) computers.** It does not work on Mac, Linux, Android or iPhone.
+
+---
+
+## Install in 6 easy steps
+
+### Step 1: Download the setup file
+Open **[the latest release](../../releases/latest)** and click **Chutku-Setup-for-Windows.exe**.
+
+![Click Chutku-Setup-for-Windows.exe](images/1-download.png)
+
+That is the only file you need. Ignore "Source code"; GitHub adds those links to every release.
+
+### Step 2: Open the file you downloaded
+Find **Chutku-Setup-for-Windows.exe** in your **Downloads** folder and double-click it.
+
+If Windows shows a blue box saying **"Windows protected your PC"**:
+1. Click **More info** (small text under the message).
+2. Click **Run anyway**.
+
+This appears because Chutku is free and not signed with a paid certificate. The setup checks itself before
+installing anything.
+
+### Step 3: Click Install
+Click **Install**, then **Finish**. You don't need to change anything: the defaults are right. No administrator
+password is needed.
+
+### Step 4: Start the short setup
+Chutku opens by itself. Click **Let's set up**.
+
+![Click Let's set up](images/3-welcome.png)
+
+### Step 5: Add your free AI key (one minute)
+Chutku needs one free key to understand you.
+
+1. Click **Get my free key**. A website opens. Sign in with your Google account.
+2. Click **Create API Key**, give it any name, and click **Copy**.
+
+![Click Get my free key](images/4-get-key.png)
+
+3. Come back to Chutku, paste the key in the box (**Ctrl+V**), and click **Check key**.
+
+![Paste your key and click Check key](images/5-paste-key.png)
+
+Chutku checks the key. If something is wrong, it tells you exactly what to do. Then type your name (optional),
+click **Continue**, and click **Finish setup**.
+
+### Step 6: You're ready!
+Click **Open Chutku**.
+
+![Click Open Chutku](images/6-all-set.png)
+
+---
+
+## How to use Chutku
+
+**Type** what you want in the box and press **Enter**, or press **Ctrl + Alt + Space** in any app and **speak**.
+You can also say **"Oye Chutku"**.
+
+![Type what you want here](images/7-ask.png)
+
+Try these:
 - "Spotify pe lofi chalao"
 - "meri last PDF kholo"
-- "D drive mein kitni jagah hai"
-- "har roz 8 baje weather batao"
-- "Rahul ko WhatsApp pe hi bhejo"
-
-## What Chutku can do
-
-- **Apps and windows:** open, close and switch apps; arrange windows; control Spotify, VLC, Telegram, VS Code,
-  File Explorer, Settings, Notepad and more.
-- **Files:** find any file by name, open your latest PDF or photo, tidy your Downloads. Every change can be undone.
-- **Web:** search, news, weather, YouTube.
-- **Your PC:** volume, brightness, battery, disk space, screenshots.
-- **Screen:** "what's on my screen?", "click the first video".
-- **Messages:** WhatsApp and Telegram. She always asks before sending to someone new.
-- **Reminders and automations:** "30 min baad yaad dilana", "har roz 8 baje briefing".
-- **Routines and teaching:** one phrase runs several steps; show her a task once and she learns it.
-- **Your phone:** chat, talk and approve from your phone (optional).
-
-## Download and install
-
-1. Go to **[Releases](../../releases/latest)** and download **Chutku-Setup-for-Windows.exe**. It is the only file
-   you need, and it is for **Windows 10 and 11 (64-bit)** only: it does not run on Mac, Linux or phones. (Ignore the
-   "Source code" links GitHub adds to every release.)
-2. Double-click it. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**. This
-   appears because the setup is not signed with a paid certificate; the download is checked against a pinned
-   checksum before anything is installed.
-3. Click **Install**. The defaults are already right (Chutku starts when you sign in, and a desktop shortcut is
-   made). No administrator rights are needed. The setup (about 230 MB, the whole app inside) checks itself, installs
-   and opens Chutku.
-
-Needs Windows 10 or 11 (64-bit) and about 1 GB of free space, plus a microphone for voice.
-
-## First start
-
-Chutku opens a short guided setup (about two minutes):
-
-1. **A free AI key** (one minute, required): click **Get my free key**, sign in with Google, click **Create API
-   Key**, copy it and paste it in. Chutku checks that the key works before going on. You don't choose a provider:
-   Chutku recognises the key. It is stored in Windows Credential Manager, never in a file.
-2. Your name and how much she does on her own (both optional, with good defaults), and a microphone check.
-
-Then Chutku congratulates you and opens. **Updates arrive by themselves:** when a new version is out, Chutku shows
-a small window; click **Update now**.
-
-Everything else on that page is optional and can be changed any time under **Settings**: your name, her name and
-voice, how much she does without asking (Safe by default: she opens and looks at things by herself and asks
-before any change), a microphone test, offline packs, and websites she should use while signed in.
-
-**Your phone (optional):** press **Connect my phone** (Settings or the Phone page). It installs Tailscale if needed
-(press **Yes** if Windows asks), opens its sign-in page, turns phone access on and shows a code. On the phone,
-install the free Tailscale app, sign in with the same account, scan the code and choose a PIN.
-
-**Telegram and "after a restart" (optional):** on the Phone page, the **Telegram** card walks you through making a
-bot with @BotFather (paste its token, then scan a code to pair). **Reach this laptop after a restart** then sends
-"Laptop is ON" to your Telegram after every restart, with a link that shows the Windows sign-in screen on your
-phone so you can sign in from anywhere. It asks Windows for permission once.
-
-Then press **Ctrl+Alt+Space** in any app and talk, or type in the Chutku window. Try:
-
-- "what can you do?"
+- "Downloads saaf karo"
+- "install VLC"
+- "file extensions dikhao"
 - "kitni jagah bachi hai"
-- "open notepad"
-- "aaj ki news"
+- "remind me in 20 minutes to drink water"
 
-**Ctrl+Alt+F12** stops everything at once. The full guide is under **Help** in the Chutku window.
+**Not sure what to say?** Click **What can I say?** on the left for examples. Click any example to try it.
 
-## Privacy and safety, in plain words
+![What can I say?](images/8-what-can-i-say.png)
 
-- **Your things stay on your PC.** Files, screen text, clipboard and memory stay on your PC. With an AI key, only
-  your request and public results go to that service.
-- **She asks before anything serious.** Deleting, sending messages, running programs, and shutting down or
-  restarting always wait for your OK.
-- **Deleted files go to the Recycle Bin.** You can bring them back.
-- **System folders are never touched.** Chutku never runs as administrator and never changes Windows or program
-  folders. (Only the optional "after a restart" setup asks Windows once, when you press it.)
-- **Every step is checked,** and she tells you exactly how many steps really worked.
-- **Web pages and messages can't give her orders.** Text she reads cannot tell her what to do.
-- **The phone link is end-to-end encrypted.**
+**Open Chutku later:** press the Windows key, type **Chutku**, press Enter. Or type **chutku.localhost** in your
+browser while Chutku is running.
+
+**Stop everything at once:** press **Ctrl + Alt + F12**.
+
+---
+
+## Safe by design
+- **She asks before anything risky** (deleting your files, shutting down, messaging someone new, installing apps).
+  Click **Yes, always** and she won't ask again for that exact thing.
+- **She never damages Windows.** Requests to delete system files, turn off Defender or the firewall, or format a
+  drive are refused, with the reason.
+- **Deleted files go to the Recycle Bin**, so you can bring them back. Say "wo setting wapas karo" to undo a
+  setting change.
+- **Your files stay on your PC.** With the AI key, only your request goes to the AI service.
+
+## Updates
+Chutku tells you when a new version is out. Click **Update now** in the small window. Your data is kept.
 
 ## Uninstall
+Press the Windows key, type **Uninstall Chutku**, press Enter, and click **Yes**. It asks whether to delete your
+data too; choose **No** to keep it for later.
+(Or: **Settings → Apps → Installed apps → Chutku → Uninstall**.)
 
-If you turned on "Reach this laptop after a restart", press **Turn off** on the Phone page first. Then Windows
-**Settings → Apps → Chutku → Uninstall**. It asks whether to delete your data (memory, settings, history) as well.
-Say no to keep it for later.
+If you turned on "Reach this laptop after a restart", click **Turn off** on Chutku's Phone page first.
 
-## Questions and problems
-
-| Question or problem | Answer |
+## Questions
+| Question | Answer |
 |---|---|
-| Is it free? | Yes. The AI keys from Groq and Google AI Studio are free too, with daily limits. |
-| Does it work offline? | Yes, after you download the offline packs in Settings. It is faster with a graphics card. |
-| The shortcut key does nothing | Another app uses Ctrl+Alt+Space. Close it, or restart Chutku. |
-| "quota" or "busy" | The free AI limit is used up for now. Wait a bit, or add a key for the other service in Settings. |
-| She says actions are paused | Click **Resume actions** in the Chutku window, or say "resume". |
-| Something seems broken | Say "apna checkup karo". She checks herself and repairs what she can. |
-| Can I use it commercially? | No. Some bundled voice models are licensed for non-commercial use only (see NOTICE in the app folder). |
+| Is it free? | Yes. The AI key from Groq (or Google AI Studio) is free too, with a daily limit. |
+| It says "quota" or "busy" | The free limit is used up for now. Wait a little, or add a key for the other service in Settings. |
+| The shortcut key does nothing | Another app uses Ctrl+Alt+Space. Close it, or restart Chutku (Settings → Restart Chutku). |
+| Can I use it for business? | No. Some voice models inside are for non-commercial use only. |
