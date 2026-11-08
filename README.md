@@ -40,10 +40,12 @@ Chutku opens by itself. Click **Let's set up**.
 ### Step 5: Add your free AI key (one minute)
 Chutku needs one free key to understand you.
 
-1. Click **Get my free key**. A website opens. Sign in with your Google account.
-2. Click **Create API Key**, give it any name, and click **Copy**.
+1. Click **Get a free Gemini key**. Google AI Studio opens. Sign in with your Google account.
+2. Click **Create API key**, then copy the key.
 
-![Click Get my free key](images/4-get-key.png)
+   (Prefer Groq? Click **Get a free Groq key** just below instead. Either key works.)
+
+![Click Get a free Gemini key](images/4-get-key.png)
 
 3. Come back to Chutku, paste the key in the box (**Ctrl+V**), and click **Check key**.
 
@@ -108,7 +110,7 @@ If you turned on "Reach this laptop after a restart", click **Turn off** on Chut
 ## Questions
 | Question | Answer |
 |---|---|
-| Is it free? | Yes. The AI key from Groq (or Google AI Studio) is free too, with a daily limit. |
+| Is it free? | Yes. The AI key from Google AI Studio (Gemini) or Groq is free too, with a daily limit. |
 | It says "quota" or "busy" | The free limit is used up for now. Wait a little, or add a key for the other service in Settings. |
 | The shortcut key does nothing | Another app uses Ctrl+Alt+Space. Close it, or restart Chutku (Settings → Restart Chutku). |
 | Can I use it for business? | No. Some voice models inside are for non-commercial use only. |
