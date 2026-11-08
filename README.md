@@ -1,6 +1,6 @@
 # Chutku
 
-**A free voice assistant for your Windows PC.** Say what you want in English, Hindi or Hinglish, and Chutku does it
+**A free voice assistant for your Windows PC**, designed and developed by **Siddhant Vashisth**. Say what you want in English, Hindi or Hinglish, and Chutku does it
 for you, then tells you honestly what happened.
 
 - "Spotify pe lofi chalao"
@@ -24,24 +24,29 @@ for you, then tells you honestly what happened.
 
 ## Download and install
 
-1. Go to **[Releases](../../releases/latest)** and download **ChutkuSetup.exe**.
+1. Go to **[Releases](../../releases/latest)** and download **Chutku-Setup-for-Windows.exe**. It is the only file
+   you need, and it is for **Windows 10 and 11 (64-bit)** only: it does not run on Mac, Linux or phones. (Ignore the
+   "Source code" links GitHub adds to every release.)
 2. Double-click it. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**. This
    appears because the setup is not signed with a paid certificate; the download is checked against a pinned
    checksum before anything is installed.
 3. Click **Install**. The defaults are already right (Chutku starts when you sign in, and a desktop shortcut is
-   made). No administrator rights are needed. The setup downloads the app (about 220 MB), checks it, and opens
-   Chutku.
+   made). No administrator rights are needed. The setup (about 230 MB, the whole app inside) checks itself, installs
+   and opens Chutku.
 
 Needs Windows 10 or 11 (64-bit) and about 1 GB of free space, plus a microphone for voice.
 
 ## First start
 
-Chutku opens a short setup page. Only the first step matters; everything else already has a good default.
+Chutku opens a short guided setup (about two minutes):
 
-1. **A free AI key** (one minute): press **Get a free key**, sign in with Google, press **Create API Key**, copy it
-   and paste it into the box. You don't choose a provider: Chutku recognises the key. It is stored in Windows
-   Credential Manager, never in a file.
-2. Press **Start using Chutku**. Anything you typed on the page is saved.
+1. **A free AI key** (one minute, required): click **Get my free key**, sign in with Google, click **Create API
+   Key**, copy it and paste it in. Chutku checks that the key works before going on. You don't choose a provider:
+   Chutku recognises the key. It is stored in Windows Credential Manager, never in a file.
+2. Your name and how much she does on her own (both optional, with good defaults), and a microphone check.
+
+Then Chutku congratulates you and opens. **Updates arrive by themselves:** when a new version is out, Chutku shows
+a small window; click **Update now**.
 
 Everything else on that page is optional and can be changed any time under **Settings**: your name, her name and
 voice, how much she does without asking (Safe by default: she opens and looks at things by herself and asks
